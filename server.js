@@ -106,7 +106,8 @@ db.mongoose
 
 var corsOptions = {
 
- origin: ["http://localhost:8081"],  
+  //origin: ["http://localhost:8081"],  
+  origin: ["https://main--musical-yeot-f6fbe6.netlify.app"], 
 credentials: true
 
 
